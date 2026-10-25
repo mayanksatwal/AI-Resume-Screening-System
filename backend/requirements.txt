@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-multipart
+PyPDF2
+python-dotenv
+python-jose[cryptography]
+pwdlib[argon2]
+pydantic[email]
+google-auth
+requests
+psycopg[binary]

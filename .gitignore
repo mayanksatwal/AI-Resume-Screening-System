@@ -3,15 +3,42 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+*.egg-info/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Environment files
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
+auth_code.txt
 
-# Resume dataset
+# Resume datasets and private candidate data
 resumes/
+uploads/
+*.pdf
 
-# System files
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated screening outputs
+resume_screening_results.xlsx
+shortlisted_candidates.xlsx
+top_candidates_chart.png
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE and system files
+.vscode/
 .DS_Store
+Thumbs.db
+
